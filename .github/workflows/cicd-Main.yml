@@ -10,3 +10,6 @@ on:
 jobs:
   reuse:
     uses: satyamdevops09/roboshop-github-actions/.github/workflows/ci-main.yml@main
+    with:
+      app_type: nodejs
+      app_name: user
